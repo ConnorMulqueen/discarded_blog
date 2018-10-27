@@ -1,0 +1,7 @@
+main:
+  - title: "Home"
+    url: https://connormulqueen.tech
+  - title: "Blog Posts"
+    url: /
+  - title: "About"
+    url: /about/
