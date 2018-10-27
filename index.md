@@ -6,6 +6,6 @@ layout: single
 author_profile: true
 ---
 <h2> Recent Posts </h2>
-{% for post in site.posts %}
+{% for post in site.posts limit:5%}
  {% include archive-single.html %}
 {% endfor %}

@@ -19,7 +19,7 @@ name: Connor Mulqueen
 description: >- # this means to ignore newlines until "baseurl:"
   A blogging website for Connor Mulqueen. Nerdy stuff.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: http://connormulqueen.github.io.com/blog # the base hostname & protocol for your site, e.g. http://example.com
+url: https://connormulqueen.github.io.com/blog # the base hostname & protocol for your site, e.g. http://example.com
 BASE_PATH: http://connormulqueen.com/blog
 repository: ConnorMulqueen/blog
 twitter_username:
@@ -27,7 +27,6 @@ github_username:  connormulqueen
 
 # Build settings
 markdown: kramdown
-paginate: 5
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 plugins:
@@ -44,18 +43,16 @@ author:
     - label: "Contact"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:cjmulque@buffalo.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "http://connormulqueen.tech"
-    - label: "Github"
+    - label: "GitHub"
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/ConnorMulqueen"
-    - label: "Medium"
-      icon: "fab fa-fw fa-medium"
-      url: "https://medium.com/@connormulqueen"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/connormulqueen/"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@connormulqueen"
+
 
 #Defaults:
 defaults:
