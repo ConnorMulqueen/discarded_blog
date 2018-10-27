@@ -24,6 +24,7 @@ BASE_PATH: http://connormulqueen.com/blog
 repository: ConnorMulqueen/blog
 twitter_username:
 github_username:  connormulqueen
+og_image: images/world.jpeg
 
 # Build settings
 markdown: kramdown
@@ -33,6 +34,13 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+
+#Google Analytics
+Analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-128189482-2"
+    anonymize_ip: false
 
 #Site Author
 author:
